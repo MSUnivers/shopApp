@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import 'font-awesome/css/font-awesome.min.css';
-
+import { FaShoppingCart } from "react-icons/fa";
 
 const search={border: '1px solid grey' ,padding: '0.5rem', borderRadius: '8px'}
 const Text1 = styled.h2`
@@ -26,7 +26,7 @@ background:violet;
 width: 100%;
 height: 5rem;
 display:flex;
-justify-content:start;
+justify-content:space-around;
 align-items:center;
 
 `
@@ -66,6 +66,7 @@ export default function Header() {
                     <List>My account</List>
 
                 </Ul>
+                <FaShoppingCart/>
             </Nav>
 
         </div>
